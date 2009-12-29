@@ -1,0 +1,49 @@
+\documentclass{constitution}
+\usepackage{mathpazo}
+\usepackage{todonotes}
+\usepackage{lineno}
+\usepackage{xspace}
+\usepackage{ulem}
+\usepackage{fancyhdr}
+
+\rhead{\thepage}
+\chead{Article \Roman{article}, Section \arabic{section}}
+\lhead{UMich Student Constitution}
+\rfoot{}
+\cfoot{}
+\lfoot{}
+
+\begin{document}
+	\title{The Constitution of the Student Body of the Ann Arbor Campus of the University of Michigan}
+	\author{Publius}
+	\date{April 1, 2010}
+	\maketitle
+	\tableofcontents
+	\newpage
+
+	\pagestyle{fancy}
+	\headheight 35pt
+	\thispagestyle{empty}
+	\linenumbers
+	
+	\begin{center}
+		\bfseries Preamble
+	\end{center}
+
+	We the students of the Ann Arbor campus of the University of Michigan, in order to implement a fair and democratic system of student self-governance, improve the quality of student life,  \ldots
+	\todo[inline]{Finish the Preamble.\\}
+	\ldots do ordain and establish this Constitution for the Student 
+	Body of the University of Michigan.
+
+	\input{general}
+
+	\input{legislative}
+	
+	\input{executive}
+	
+	\input{judicial}
+	
+	\input{elections}
+	
+	\input{amendment}
+\end{document}
