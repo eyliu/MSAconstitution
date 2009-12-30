@@ -1,0 +1,6 @@
+# ignores for LaTeX documents
+*.aux
+*.dvi
+*.log
+*.out
+*.toc
