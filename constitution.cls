@@ -4,7 +4,7 @@
 
 \LoadClass{report}
 
-\RequirePackage[letterpaper,margin=1in]{geometry}
+\RequirePackage[letterpaper,margin=1.25in]{geometry}
 \RequirePackage[colorlinks,linkcolor=blue]{hyperref}
 \RequirePackage{titlesec}
 \RequirePackage{titletoc}

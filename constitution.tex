@@ -3,11 +3,12 @@
 \usepackage{todonotes}
 \usepackage{lineno}
 \usepackage{xspace}
-\usepackage{ulem}
+\usepackage{soul}
 \usepackage{fancyhdr}
 \usepackage{color}
 
-\newcommand{\temp}[1]{{\color{red} #1}}
+%\newcommand{\temp}[1]{{\color{red} #1}}
+\newcommand{\temp}[1]{\ul{\bf #1}\todo{TBD}\xspace}
 
 \rhead{\thepage}
 \chead{Article \Roman{article}, Section \arabic{section}}
