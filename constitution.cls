@@ -10,7 +10,7 @@
 \RequirePackage{titletoc}
 \RequirePackage{paralist}
 
-\setcounter{secnumdepth}{3}
+\setcounter{secnumdepth}{4}
 
 \titleclass\article{straight}[\part]
 \titleformat{\article}[display]{\filcenter\normalfont\bfseries}{Article \thearticle}{0pt}{\filcenter\normalfont\bfseries}
@@ -32,9 +32,14 @@
 {Section \thesection.}{.5em}{}[\quad]
 \renewcommand{\thesection}{\arabic{section}}
 
-\titleformat{\subsection}[runin]{\normalfont}{\alph{subsection}.}{.5em}{\bfseries}[\quad]
+\titleformat{\subsection}[runin]{\normalfont}{(\alph{subsection})}{.5em}{\scshape}[\quad]
 \titlespacing{\subsection}{\parindent}{*2}{\wordsep}
 \renewcommand{\thesubsection}{\alph{subsection}}
+
+\titleformat{\subsubsection}[runin]{\normalfont}{(\roman{subsubsection})}{.5em}{\scshape}[\quad]
+\titlespacing{\subsubsection}{2\parindent}{*2}{\wordsep}
+\renewcommand{\thesubsubsection}{\roman{subsubsection}}
+
 
 \renewcommand{\theenumi}{\alph{enumi}}
 \renewcommand{\theenumii}{\roman{enumii}}
