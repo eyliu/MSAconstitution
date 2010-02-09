@@ -14,24 +14,31 @@
 \addtolength{\parskip}{\baselineskip}
 
 \rhead{\thepage}
-\chead{\qquad\qquad Article \Roman{article}, Section \arabic{section}}
-\lhead{UMich Student Constitution (Rev: 1108)}
+\chead{\qquad\qquad Article \Roman{article}}
+\lhead{UMich Student Constitution (Rev: 1116)}
 \rfoot{}
 \cfoot{}
 \lfoot{}
 
 \begin{document}
-	\title{The Constitution of the Student Body of the Ann Arbor Campus of the University of Michigan}
+	\renewcommand{\thepage}{\roman{page}}
+	\title{Constitution of the Student Body of the Ann Arbor Campus of the University of Michigan}
 	\author{\includegraphics[width=5in]{S4PGlogo}}
-	\date{Revision 1108 (7 Feb 2010)}
+	\date{Revision 1116 (8 Feb 2010)}
 	\maketitle
 	\tableofcontents
 	\newpage
 
+	\renewcommand{\thepage}{\arabic{page}}
+	\setcounter{page}{1}
 	\pagestyle{fancy}
 	\headheight 35pt
 %	\thispagestyle{empty}
 	\linenumbers
+	
+	\begin{center}
+		\Large Constitution of the Student Body of the Ann Arbor Campus\\ of the University of Michigan
+	\end{center}
 	
 	\begin{center}
 		\bfseries Preamble
@@ -39,7 +46,7 @@
 
 	AN EDUCATED CITIZENRY being indispensable to the preservation of our civic rights and liberties; creating, securing, and applying knowledge and wisdom among the people being the chief mission of our university; and active participation in our own education being imperative to the success of these undertakings;
 
-		we, the students of the University of Michigan, hereby establish this Constitution
+	    we, the students of the University of Michigan's Ann Arbor campus, hereby establish this Constitution
 
 	to promote academic freedom and responsibility, foster fellowship and collaboration among the Students, and guarantee a public forum for Student expression.
 	
